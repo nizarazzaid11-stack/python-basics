@@ -1,3 +1,3 @@
 # python 2 dasar
 
-projek belajar program
+projek belajar programan dasar git
