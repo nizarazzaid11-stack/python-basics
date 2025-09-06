@@ -1,0 +1,5 @@
+umur = int(input("masukan umurmu"))
+if (umur >= 18):
+    print("kamu sudah dewasa")
+else: 
+    print("kamu masih kecil")

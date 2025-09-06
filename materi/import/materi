@@ -1,0 +1,24 @@
+for angka in range (1, 6):
+    print("halo ke-", angka)
+    print("mantap ke-", angka)
+
+
+print("--- selesai ---")
+
+
+wifijoglo = "hsijoglo"
+for huruf in wifijoglo:
+    print(huruf, "-->")
+
+
+rentangnomor = range(1, 10)
+for no in rentangnomor:
+    print("*"  * no)
+     
+     
+num = 1
+while (num < 6):
+    print("jalan teross: ", num)
+    num+=1
+
+

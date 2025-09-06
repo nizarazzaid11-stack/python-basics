@@ -1,0 +1,35 @@
+print("MATERI 10 - FILE HANDLING")
+print("-------------------------")
+#-cari posisi file note,txt dengan  raw string (r)
+file_path = r"C:\Users\DANANG WAHYUDI\OneDrive\Documents\python\note.txt"
+# open() -> buka file target
+# mode r -> read only (hanya baca)
+file_catatan = open(file_path, "r")
+# read() -> baca isi file not.txt
+catatan = file_catatan.read()
+print(f"Isi catatan: {catatan}")
+# tutup file note.txt
+file_catatan.close()
+
+
+
+
+
+
+print("---------open csv----------")
+materi-10-file/anime.csv
+# wiht ... as -> agar file otomatis ter close
+ # gunakan fungsi reader() dari module csv
+baca_file_anime = csv.reader(file_anime)
+# ubah object csv ke list agar bisa di olah
+list_anime = list(baca_file_anime)
+# keluar kan seluruh data dengan for loop
+for anime in list_anime:
+    print(anime)
+
+
+print(f"anime baru: {anime_baru}")
+# mode 'a' (append) -> tambah data ke akhir
+with open(anime_file_paht, 'a', newline='') as
+file_anime:()
+# gunakan wri

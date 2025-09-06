@@ -1,0 +1,42 @@
+def main():
+    print("👋 Hai! Yuk isi data dirimu dulu!\n")
+
+    
+    nama = input("🧑 Nama lengkap: ")
+    umur = input("🎂 Umur: ")
+    kelas = input("🏫 Kelas: ")
+    cita_cita = input("🎯 Cita-cita atau profesi impian: ")
+    hobi = input("⚽ Hobi favorit: ")
+    waktu_belajar = input("🌄 Lebih suka belajar pagi atau malam?: ")
+
+    
+    print("\nPilih tipe gaya digital kamu (ketik angkanya aja):")
+    print("1. Wibu (Anak anime banget)")
+    print("2. Gamer (Ranked jalan terus)")
+    print("3. K-Popers (Ngikutin gaya Korea)")
+    print("4. Anak konten (Tiktoker/Youtuber wannabe)")
+    print("5. Anak nongki (Yang penting ngumpul)")
+
+    gaya = input("Pilihanmu: ")
+
+
+    gaya_dict = {
+        "1": "Wibu (Anak anime banget)",
+        "2": "Gamer (Ranked jalan terus)",
+        "3": "K-Popers (Ngikutin gaya Korea)",
+        "4": "Anak konten (Tiktoker/Youtuber wannabe)",
+        "5": "Anak nongki (Yang penting ngumpul)"
+    }
+
+    
+    print("\n✨ Data kamu sudah tercatat, nih!")
+    print(f"🧑 Nama       : {nama}")
+    print(f"🎂 Umur       : {umur}")
+    print(f"🏫 Kelas      : {kelas}")
+    print(f"🎯 Cita-cita  : {cita_cita}")
+    print(f"⚽ Hobi       : {hobi}")
+    print(f"🌄 Belajar   : {'Pagi' if 'pagi' in waktu_belajar.lower() else 'Malam'}")
+    print(f"💻 Gaya digitalmu: {gaya_dict.get(gaya, 'Tidak diketahui')}")
+
+if __name__ == "__main__":
+    main()

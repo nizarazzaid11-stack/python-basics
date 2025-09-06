@@ -1,0 +1,19 @@
+
+
+
+
+#
+jajanan_bilal = ["basreng", "pentol"]
+jajanan_asu = ["susu", "kon"]
+gabungan_jajanan = jajanan_bilal + jajanan_asu
+print("gabungan janjanan:", gabungan_jajanan)
+
+
+
+
+daftar_minuman = [
+    ["kopi", "doger"],
+    ["jus apel", "susu"]
+]
+print(daftar_minuman)
+print("es faforit ali:",  daftar_minuman[1][0])

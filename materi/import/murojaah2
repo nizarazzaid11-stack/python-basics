@@ -1,0 +1,5 @@
+siswa1 = {
+    "nama" : "nizar",
+    "kelas" : "10",
+    "umur" : 16
+}

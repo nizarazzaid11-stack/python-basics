@@ -1,0 +1,42 @@
+kjumpulan_angka =[1, 2, 3, 4, 5]
+print(kjumpulan_angka)
+
+data = ["ucup", "otong", "otay"]
+
+data_0 = data[data_0]
+print("data pertama (index 0) = (data_0)")
+
+data_terakhir = data[-1]
+print("data trakhir adalah")
+
+
+
+
+
+
+
+
+#len
+data_nama = ["daffa", "fawaz", "ucup", "tol"]
+prin(len("data_nama"))
+
+#insert
+data_nama,insert(0, "hamka")
+print(data_nama)
+
+#append
+data_nama,append("ridho")
+print(data_nama)
+
+#top
+data_nama,pop()
+print(data_nama)
+
+#extead
+data_baru = ["jamal", "ridho"]
+data_nama.extend(data_baru)
+print(data_nama)
+
+
+my_tuple = ("daffa", "fawaz", "jamal", "udin",)
+my_tuple.append("hamka")
